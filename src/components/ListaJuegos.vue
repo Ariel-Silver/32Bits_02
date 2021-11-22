@@ -15,6 +15,7 @@
         <td>{{ producto.nombre }}</td>
         <td>{{ producto.stock }}</td>
         <td>{{ producto.precio }}</td>
+        
         <button
         v-if="modo === 'vender'"
         class="btn btn-info btn-sm m-2"
